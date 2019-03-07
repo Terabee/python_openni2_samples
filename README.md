@@ -25,10 +25,10 @@ In order to use those sample you will need the following requirements:
         >**Important note**:
         > The right OpenCV version is mandatory in order to use the SDK. We recommend following the OpenCV installation for linux available [here](https://github.com/Terabee/linux_openni2_samples#install-opencv).
         >
-    * Terabee OpenNI2 SDK for Linux (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60))
+    * Terabee OpenNI2 SDK for Linux (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads))
 
 * On Windows
-    * Terabee OpenNI2 SDK for Windows (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60))
+    * Terabee OpenNI2 SDK for Windows (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads))
     * You will need to copy the following files from "C:/Program Files/TERABEEToF" to "C:/Program Files/OpenNI2/Redist/OpenNI2/Drivers"
         * DeviceModules2.dll
         * RvcLib.dll
