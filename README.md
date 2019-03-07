@@ -7,28 +7,39 @@ For more information about the Terabee 3Dcam 80x60, please click [here](https://
 # Requirements
 In order to use those sample you will need the following requirements:
 
-* Python3 with the following python modules
+* On linux, you will need:
+    * To install the **OpenNI 2 library**
+        >sudo apt-get install libopenni2-dev
+    * To install **OpenCV**
+        >**Important note**:
+        > The right OpenCV version is mandatory in order to use the SDK. We recommend following the OpenCV installation for linux available [here](https://github.com/Terabee/linux_openni2_samples#install-opencv).
+        >
+    * To Install the **Terabee OpenNI 2 SDK for Linux** following these steps:
+        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads)
+        * Extract the content of the archive (relevant to your system architecture and desired OpenNI version) in the directory of your choice
+
+        * Enter the SDK folder and install the SDK with root permission
+            >sudo ./install.sh
+
+* On Windows, you will need:
+    * To install the **Terabee OpenNI2 SDK for Windows** following these steps:
+        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads)
+        
+        * Once downloaded, install the SDK by running the file relevant to your system architecture and desired OpenNI version.
+
+    * To copy the following files from "C:/Program Files/TERABEEToF" to "C:/Program Files/OpenNI2/Redist/OpenNI2/Drivers"
+        * DeviceModules2.dll
+        * RvcLib.dll
+
+* In both Linux and Windows, you will need **Python 3** with the following python modules:
     * openni
     * numpy
     * platform
     * cv2
-        * On linux this module is automatically installed when installing OpenCV
-        * On windows you need the pip package named *opencv_python*
+        * On Linux this module is automatically installed when installing OpenCV
+        * On Windows you need the pip package named **opencv_python**
 
-    In both Linux and windows those modules can be installed using pip with the folowing command with elevated privileges:
+    Those modules can be installed using pip with the folowing command with elevated privileges:
     > pip install \<module name\>
 
-* On linux
-    * libopenni2 library
-        >sudo apt-get install libopenni2-dev
-    * OpenCV
-        >**Important note**:
-        > The right OpenCV version is mandatory in order to use the SDK. We recommend following the OpenCV installation for linux available [here](https://github.com/Terabee/linux_openni2_samples#install-opencv).
-        >
-    * Terabee OpenNI2 SDK for Linux (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads))
-
-* On Windows
-    * Terabee OpenNI2 SDK for Windows (available in the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads))
-    * You will need to copy the following files from "C:/Program Files/TERABEEToF" to "C:/Program Files/OpenNI2/Redist/OpenNI2/Drivers"
-        * DeviceModules2.dll
-        * RvcLib.dll
+    **Important Note:** The Python architecture (64 or 32 bits) must match the architecture of the SDK.
