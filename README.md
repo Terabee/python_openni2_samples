@@ -2,7 +2,7 @@
 
 The purpose of this README is to provide example python scripts to get started with using Terabee 3Dcam 80x60 with OpenNI 2 framework. We provide here both Linux and Windows instructions.
 
-For more information about the Terabee 3Dcam 80x60, please click [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60).
+For more information about the Terabee 3Dcam 80x60, please click [here](https://www.terabee.com/shop/3d-tof-cameras/terabee-3dcam/).
 
 # Requirements
 In order to use those sample you will need the following requirements:
@@ -15,7 +15,7 @@ In order to use those sample you will need the following requirements:
         > The right OpenCV version is mandatory in order to use the SDK. We recommend following the OpenCV installation for linux available [here](https://github.com/Terabee/linux_openni2_samples#install-opencv).
         >
     * To Install the **Terabee OpenNI 2 SDK for Linux** following these steps:
-        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads)
+        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/shop/3d-tof-cameras/terabee-3dcam/)
         * Extract the content of the archive (relevant to your system architecture and desired OpenNI version) in the directory of your choice
 
         * Enter the SDK folder and install the SDK with root permission
@@ -23,7 +23,7 @@ In order to use those sample you will need the following requirements:
 
 * On Windows, you will need:
     * To install the **Terabee OpenNI2 SDK for Windows** following these steps:
-        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads)
+        *  Download the SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/shop/3d-tof-cameras/terabee-3dcam/)
         
         * Once downloaded, install the SDK by running the file relevant to your system architecture and desired OpenNI version.
 
